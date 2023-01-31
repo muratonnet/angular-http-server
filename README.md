@@ -72,6 +72,12 @@ Disable logging
 angular-http-server --silent
 ```
 
+Send precompressed files with the “.gz” filename extension instead of regular files
+
+```sh
+angular-http-server --gzipstatic
+```
+
 All options can be specified by a config file, optionally read via `--config` flag.
 CLI options take precedence over any options read from the config file.
 
